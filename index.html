@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS link here -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS reset link here -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Bootstrap CDN link here -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Font Style -->
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Mouse+Memoirs|Ubuntu+Mono|Bungee+Shade" rel="stylesheet">
+    <title>Random Selector</title>
+</head>
+
+<body>
+    <!-- <img id="bb8" src="assets/images/bb8.gif" alt="bb8" height="50px" width="50px"> -->
+    <div class="wrapper">
+        <header id="theTitle"> Random Guessing Game</header>
+        <span id="span">Your Wins  =</span><span id="winNum"></span><br>
+        <span id="span">Your Loses  =</span><span id="loseNum"></span>
+    </div>
+
+    <div class="container">
+        <div class="backgroundImage">
+            <!-- Place the character you select here -->
+            <div class="row col-md-12">
+                <img id="ryu" src="https://media.giphy.com/media/Nl50SwzSximrhf3bGx/giphy.gif" alt="ryu" height="50px"
+                    width="50px">
+                <div id="userCharacter">
+                    <h1 id="h1">Match this number</h1>
+                    <p id="targetNum"></p>
+                </div>
+            </div>
+            <!-- Characters Selection -->
+            <div class="row">
+                <div id="characterSelect">
+                    <p id="arrayImages"></p>
+                </div>
+            </div>
+            
+            <!-- Show win or lose image here -->
+            <p id="resultImage"></p>
+            <!-- Place select enemy here -->
+            <div class="row">
+                <img id="enterprise" src="https://media.giphy.com/media/Nl50SwzSximrhf3bGx/giphy.gif" alt="enterprise"
+                    height="50px" width="50px">
+                <div id="enemyCharacter">
+                    <h1 id="h1">Your total score is:</h1>
+                    <p id="myScore"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery CDN and JS Href links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

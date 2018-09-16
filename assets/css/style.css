@@ -1,0 +1,103 @@
+
+/* For Background Image */
+.backgroundImage {
+   width: 960px;
+   height: 750px;
+   margin: auto;
+   background: url(../images/background.gif) repeat 0 0;
+  }
+
+  html body {
+      background-color: black;
+      color: aliceblue;
+  }
+
+  #theTitle {
+    font-family: 'Faster One', cursive;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  #attackButton {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: rgba(0, 0, 255, 0.541);
+    color: silver;
+    font-size: 30px;
+    border-style: ridge;
+    border: 5px solid silver;
+    border-radius: 10px;
+    
+  }
+
+
+#attackButton:hover {
+    background-color: rgba(0, 0, 255, 0.541); 
+}
+
+#attackButton:active {
+  background-color: rgba(1, 1, 107, 0.541); 
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: red;
+}
+
+  /* Wrapper for the Attack Button */
+  .wrapper {
+      text-align: center;
+  }
+
+  .row {
+    height: 200px;
+    width: 960px;
+    margin: 30px;
+    background-color:  rgba(0, 0, 255, 0.541); 
+    border-style: ridge;
+    border: 5px solid silver;
+    border-radius: 10px;
+    float: left;
+  }
+
+  /*.widgets {
+    display: flex;
+    justify-content: space-around;
+  }*/
+
+  /* For the font inside the rows */
+  #h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    color: gold;
+  }
+
+  #span, #winNum, #loseNum {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 20px;
+    color: rgb(80, 92, 28); 
+  }
+  
+
+  #targetNum, #myScore {
+    font-size: 100px;
+    font-family: 'Bungee Shade', cursive;
+    color: #85754E;
+  }
+
+  .imageResult {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+    z-index: 1;
+  }
+
+  .gifImages {
+    height: 190px;
+    width: 190px;
+  }
+  
+    
